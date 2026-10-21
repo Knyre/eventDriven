@@ -1,6 +1,7 @@
 const button = document.getElementById("loadBtn");
 const userList = document.getElementById("userList");
 const button2 = document.getElementById("loadPost");
+
 button.addEventListener("click", getUsers);
 button2.addEventListener("click", createPost);
 
