@@ -29,6 +29,7 @@ async function getUsers() {
                 <h3>${user.name}</h3>
                 <p>Email: ${user.email}</p>
                 <p>City: ${user.address.city}</p>
+                <p>Zipcode: ${user.address.zipcode}</p>
             `;
 
             userList.appendChild(card);
